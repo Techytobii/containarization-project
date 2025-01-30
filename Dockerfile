@@ -5,7 +5,7 @@ FROM nginx:latest
 # Copy nginx.conf /etc/nginx/nginx.conf
 
 # Copy your web content (e.g., HTML, CSS, JS files)
-COPY ./html /usr/share/nginx/html
+COPY ./html /usr/share/nginx
 
 #Expose port 80 for web traffic
 EXPOSE 80
